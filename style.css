@@ -1,0 +1,96 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:azure; 
+}
+
+header {
+    background-color:gray;
+    color: rgb(41, 210, 219,0.9);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(152, 191, 235,0.5);
+    border-radius: 10%;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.socialMediaInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.socialMediaInput input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px; 
+}
+
+.socialMediaInput button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.socialMediaInput button:hover {
+    background-color: #555;
+}
+
+.socialMediaInput img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#instagramLinkImg::before {
+    content: '\1F4F7'; 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#snapchatLinkImg::before {
+    content: '\1F46B'; 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#twitterLinkImg::before {
+    content: '\1F426'; 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#linkedinLinkImg::before {
+    content: '\1F464'; 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#facebookLinkImg::before {
+    content: '\1F4F1'; 
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
